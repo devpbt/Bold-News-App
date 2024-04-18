@@ -1,0 +1,37 @@
+html *
+{
+   font-family: poppins !important;
+}
+
+.cardData{
+   display: grid;
+   justify-content: center;
+   grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+   margin: auto;
+   margin-top: 20px;
+}
+
+.card{
+   width: 400px;
+  background-color: #BE867E;
+ cursor: pointer;
+  margin: 07%;
+  padding: 10px;
+}
+
+body{
+   background-color: #CBC2BB;
+}
+
+.category{
+position: absolute;
+margin-top: 120px;
+
+}
+
+.card img {
+   height: 45%;
+   width: 100%;
+}
+
+
